@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Videoly/static/css/main.9c04925d.chunk.css",
+    "main.js": "/Videoly/static/js/main.6f135c6d.chunk.js",
+    "main.js.map": "/Videoly/static/js/main.6f135c6d.chunk.js.map",
+    "runtime-main.js": "/Videoly/static/js/runtime-main.d3f0dbaf.js",
+    "runtime-main.js.map": "/Videoly/static/js/runtime-main.d3f0dbaf.js.map",
+    "static/css/2.591db2b6.chunk.css": "/Videoly/static/css/2.591db2b6.chunk.css",
+    "static/js/2.f45bb3fb.chunk.js": "/Videoly/static/js/2.f45bb3fb.chunk.js",
+    "static/js/2.f45bb3fb.chunk.js.map": "/Videoly/static/js/2.f45bb3fb.chunk.js.map",
+    "static/js/3.2ebf992f.chunk.js": "/Videoly/static/js/3.2ebf992f.chunk.js",
+    "static/js/3.2ebf992f.chunk.js.map": "/Videoly/static/js/3.2ebf992f.chunk.js.map",
+    "index.html": "/Videoly/index.html",
+    "static/css/2.591db2b6.chunk.css.map": "/Videoly/static/css/2.591db2b6.chunk.css.map",
+    "static/css/main.9c04925d.chunk.css.map": "/Videoly/static/css/main.9c04925d.chunk.css.map",
+    "static/js/2.f45bb3fb.chunk.js.LICENSE.txt": "/Videoly/static/js/2.f45bb3fb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3f0dbaf.js",
+    "static/css/2.591db2b6.chunk.css",
+    "static/js/2.f45bb3fb.chunk.js",
+    "static/css/main.9c04925d.chunk.css",
+    "static/js/main.6f135c6d.chunk.js"
+  ]
+}
