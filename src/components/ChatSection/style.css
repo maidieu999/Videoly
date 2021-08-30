@@ -1,0 +1,32 @@
+
+.meeting {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section__header .meeting__title{
+    margin-bottom: 18px;
+}
+.section__header .meeting__text{
+    margin-bottom: 16px;
+}
+.btn__meeting{
+    color: var(--text-color);
+    background-color: var(--text-color2);
+}
+.btn__meeting:hover {
+    color: var(--text-color);
+}
+
+/* MOBILE - iphone 6/7/8 plus: 414 */
+@media (max-width: 740px) {
+    .meeting {
+        height: 350px;
+    }
+    .section__header .meeting__text{
+        font-weight: 100;
+    }
+}

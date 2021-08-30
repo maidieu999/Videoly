@@ -1,0 +1,123 @@
+.count {
+  height: 777px;
+  background-color: var(--text-color);
+  text-align: center;
+}
+.count__header {
+  width: 100%;
+  text-align: center;
+}
+.count__header h5 {
+  margin-bottom: 70px;
+
+  color: var(--secondary-color);
+
+  font-size: 35px;
+  font-family: var(--font1);
+  font-weight: 600;
+}
+.count__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 398px;
+  height: 360px;
+
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+
+  transition: all 0.3s ease;
+}
+.count__block:hover {
+  background-color: var(--secondary-color-darker);
+}
+.count__title {
+  margin-top: 8px;
+
+  font-size: 20px;
+  font-family: var(--font1);
+  font-weight: 300;
+}
+.count__number {
+  margin-top: 40px;
+
+  font-family: var(--font2);
+  font-size: 80px;
+  font-weight: 600;
+}
+.count__content {
+  margin-top: 70px;
+  width: 100%;
+
+  font-weight: 300;
+  text-align: center;
+
+  color: var(--secondary-color);
+}
+.btn-count {
+  margin-top: 30px;
+
+  background-color: var(--primary-color);
+  color: var(--text-color2);
+}
+.btn-count:hover {
+  color: var(--text-color2);
+  background-color: var(--primary-color-darker);
+}
+
+@media (max-width: 1023px) {
+    .count{
+        height: auto;
+    }
+}
+
+/* TABLET - ipad: 768*/
+@media (min-width: 740px) and (max-width: 1023px) {
+  .count__block {
+    width: 32%;
+    height: 245px;
+  }
+  .count__number {
+    margin-top: 16px;
+    font-size: 65px;
+    }
+    .count__header h5{
+        margin-bottom: 56px;
+    }
+    .count__content{
+        margin-top: 56px;
+
+    }
+}
+
+/* MOBILE - iphone 6/7/8 plus: 414 */
+@media (max-width: 740px) {
+    .count__block {
+        margin-bottom: 8px;
+    }
+    .count__img img {
+        width: 40px;
+    }
+    .count__title{
+        margin-top: 18px;
+        font-size: 32px;
+    }
+    .count__number {
+        margin-top: 24px;
+        font-size: 100px;
+    }
+    .count__content{
+        margin-top: 48px;
+    }
+    .count__content p {
+        line-height: 32px;
+        padding: 0 16px;
+    }
+
+    .btn-count{
+        margin-top: 32px;
+    }
+    
+}

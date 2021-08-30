@@ -1,0 +1,14 @@
+.scroll-top__btn {
+   position: fixed; 
+   right: 16px;
+   bottom: 35px;
+   height: 20px;
+   font-size: 3rem;
+   z-index: 999;
+   cursor: pointer;
+   color: var(--primary-color);
+   transition: all 0.3s ease;
+}
+.scroll-top__btn:hover {
+   color: var(--primary-color-darker);
+}
